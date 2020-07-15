@@ -33,7 +33,7 @@ Then log the sum to the console. (Hint: It should be 28)
 
 let numbers = [3, 4, 5, 7, 9];
 
-// Your Code Here
+console.log(numbers [reduce])
 
 /*
 ---------------------------------------------------------------------------
@@ -45,7 +45,7 @@ Exercise Three - Creating an array
 // Create a new array and initialize with the names of five different colors.
 // The array should be assigned to a variable named "colors"
 
-// Your Code Here
+let colors =
 
 // Step Two ------------------
 // Log the length of the array to the console (it should print 5)
