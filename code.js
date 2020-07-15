@@ -14,12 +14,12 @@ let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
 // Step One ------------------
 // Log the word "jumped" to the console by accessing it in the array.
 
-// Your Code Here
+console.log(sentence[2]);
 
 // Step Two ------------------
 // Log the last word in the array to the console.
 
-// Your Code Here
+console.log(sentence[5]);
 
 /*
 ---------------------------------------------------------------------------
