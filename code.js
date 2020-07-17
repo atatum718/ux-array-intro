@@ -32,8 +32,9 @@ Then log the sum to the console. (Hint: It should be 28)
 */
 
 let numbers = [3, 4, 5, 7, 9];
+totalSum = numbers.reduce((a, b) => a + b);
 
-console.log(numbers [reduce])
+console.log(totalSum);
 
 /*
 ---------------------------------------------------------------------------
@@ -45,11 +46,11 @@ Exercise Three - Creating an array
 // Create a new array and initialize with the names of five different colors.
 // The array should be assigned to a variable named "colors"
 
-let colors =
+let colors = ["red", "pink", "blue", "black", "green"];
 
 // Step Two ------------------
 // Log the length of the array to the console (it should print 5)
-
+console.log(colors.length);
 /*
 ---------------------------------------------------------------------------
 Exercise Four - Updating an array
@@ -62,7 +63,9 @@ let names = []; // Don't modify this line.
 // Add 5 names of people to the array.
 // Then log your array to the console.
 
-// Your Code Here
+names.push("jane", "Alecia", "Karen", "Sean", "Chris");
+
+console.log(names);
 
 // Step Two ------------------
 // Using the index variable, assign a new name to the given index.
@@ -71,6 +74,7 @@ let index = 2;
 
 // Your Code Here
 
+names[index];
 /*
 ---------------------------------------------------------------------------
 Exercise Five - Concatenating an array
@@ -86,3 +90,6 @@ let firstArray = ["This", "will", "make"];
 let secondArray = ["a", "combined", "array."];
 
 // Your Code Here.
+firstArray.concat(secondArray);
+let combinedArray = firstArray.concat(secondArray);
+console.log(combinedArray);
